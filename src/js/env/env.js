@@ -1,4 +1,4 @@
 export const env = {
-    url: 'https://31.186.82.144',
+    url: 'https://alior.00kaito.usermd.net',
     port: '8800'
 }
