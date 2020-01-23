@@ -101,7 +101,7 @@ class App extends Component {
                             <div className={this.state.selected === '3' ? 'form-group' : 'd-none'}>
                                 <label htmlFor="formGroupExampleInput">id</label>
                                 <input name="userId" type="text" className="form-control" id="userid"
-                                       placeholder="Example input" value={this.state.userId}
+                                       placeholder="id" value={this.state.userId}
                                        onChange={this.handleFormChange}/>
 
                                 <label htmlFor="formGroupExampleInput">Name</label>
