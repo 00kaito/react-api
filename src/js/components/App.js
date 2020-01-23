@@ -100,29 +100,29 @@ class App extends Component {
                             </select>
                             <div className={this.state.selected === '3' ? 'form-group' : 'd-none'}>
                                 <label htmlFor="formGroupExampleInput">id</label>
-                                <input name="userId" type="text" className="form-control" id="formGroupExampleInput"
+                                <input name="userId" type="text" className="form-control" id="userid"
                                        placeholder="Example input" value={this.state.userId}
                                        onChange={this.handleFormChange}/>
 
                                 <label htmlFor="formGroupExampleInput">Name</label>
-                                <input name="name" type="text" className="form-control" id="formGroupExampleInput"
-                                       placeholder="Example input" value={this.state.name}
+                                <input name="name" type="text" className="form-control" id="username"
+                                       placeholder="Joe" value={this.state.name}
                                        onChange={this.handleFormChange}/>
 
                                 <label htmlFor="formGroupExampleInput">Surname</label>
-                                <input name="surname" type="text" className="form-control" id="formGroupExampleInput"
-                                       placeholder="Example input" value={this.state.surname}
+                                <input name="surname" type="text" className="form-control" id="usersurname"
+                                       placeholder="Doe" value={this.state.surname}
                                        onChange={this.handleFormChange}/>
 
                                 <label htmlFor="formGroupExampleInput">Date of Birth</label>
                                 <input name="dateOfBirth" type="date" className="form-control"
-                                       id="formGroupExampleInput"
-                                       placeholder="Example input" value={this.state.dateOfBirth}
+                                       id="userbirth"
+                                       placeholder="Day of birth" value={this.state.dateOfBirth}
                                        onChange={this.handleFormChange}/>
 
                                 <label htmlFor="formGroupExampleInput">Balance</label>
-                                <input name="balance" type="text" className="form-control" id="formGroupExampleInput"
-                                       placeholder="Example input" value={this.state.balance}
+                                <input name="balance" type="text" className="form-control" id="userbalance"
+                                       placeholder="1 000.00" value={this.state.balance}
                                        onChange={this.handleFormChange}/>
                             </div>
                             <button className="m-1 w-50 btn btn-secondary" onClick={this.handleSubmit}>Submit</button>
